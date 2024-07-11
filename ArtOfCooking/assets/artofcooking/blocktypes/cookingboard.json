@@ -1,0 +1,83 @@
+{
+  "code": "cookingboard",
+  "class": "blockcookingboard",
+  "entityClass": "becookingboard",
+  "maxstacksize": 1,
+  "behaviors": [
+    { "name": "Unstable" },
+    {
+      "name": "HorizontalOrientable",
+      "properties": { "dropBlockFace": "east" }
+    }
+  ],
+  "attributes": {
+    "inventoryclass": "cookingboard",
+    "handbook": {
+      "groupBy": [ "cookingboard-*-east" ],
+      "extraSections": [
+        {
+          "title": "artofcooking:block-handbooktitle-cookingboard",
+          "text": "artofcooking:block-handbooktext-cookingboard"
+        },
+        {
+          "title": "artofcooking:block-handbooktitle-cookingboard2",
+          "text": "artofcooking:block-handbooktext-cookingboard2"
+        }
+      ]
+    }
+  },
+  "creativeinventory": { "general": [ "*-east" ] },
+  "variantgroups": [
+    {
+      "code": "wood",
+      "states": [ "aged" ],
+      "loadFromProperties": "block/wood"
+    },
+    {
+      "code": "side",
+      "loadFromProperties": "abstract/horizontalorientation"
+    }
+  ],
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "helpTpUseAnimation": "twohandplaceblock",
+  "shape": { "base": "block/cookingboard" },
+  "lightabsorption": 0,
+  "sideopaque": { "all": false },
+  "sidesolid": { "all": false },
+  "blockmaterial": "wood",
+  "sounds": { "place": "game:block/planks" },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.9,
+      "y": -1.1,
+      "z": -0.637
+    },
+    "rotation": {
+      "x": 18,
+      "y": 10,
+      "z": -98
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.4,
+      "z": 0.5
+    },
+    "scale": 0.75
+  },
+  "collisionbox": {
+    "x1": 0,
+    "y1": 0,
+    "z1": 0,
+    "x2": 1,
+    "y2": 0.125,
+    "z2": 1
+  },
+  "selectionBox": {
+    "x1": 0.0625,
+    "y1": 0.125,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 1,
+    "z2": 0.9375
+  }
+}

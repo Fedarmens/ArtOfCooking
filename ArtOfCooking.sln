@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtOfCooking", "ArtOfCooking\ArtOfCooking.csproj", "{8A673554-3C1B-4325-A86E-B0FB78434C9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "CakeBuild\CakeBuild.csproj", "{7426A10F-1BB4-422D-B597-CFB894D5479D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A673554-3C1B-4325-A86E-B0FB78434C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A673554-3C1B-4325-A86E-B0FB78434C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A673554-3C1B-4325-A86E-B0FB78434C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A673554-3C1B-4325-A86E-B0FB78434C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7426A10F-1BB4-422D-B597-CFB894D5479D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7426A10F-1BB4-422D-B597-CFB894D5479D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7426A10F-1BB4-422D-B597-CFB894D5479D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7426A10F-1BB4-422D-B597-CFB894D5479D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8CD1465-89A7-46C4-B9C7-82EE8805FACF}
+	EndGlobalSection
+EndGlobal
